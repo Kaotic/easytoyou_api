@@ -1,7 +1,8 @@
 # EasyToYou.eu Headless Chrome API
 
-Simple [EasyToYou.eu](https://easytoyou.eu/) API using [Puppeteer (Headless Chrome Node.js API)](https://github.com/puppeteer/puppeteer) for decrypting directory from your computer.
+Simple [EasyToYou.eu](https://easytoyou.eu/) API using [Puppeteer (Headless Chrome Node.js API)](https://github.com/puppeteer/puppeteer) for decrypting directory from your computer. (Search encrypted files -> upload -> download -> replace)
 
+(700~ files/h)
 ## Installation :
 
 Use [NodeJS](https://nodejs.org/) v12.4.0 with npm.
