@@ -1,0 +1,32 @@
+{
+  "directoryToDecrypt": "D:\\example\\superproject",
+  "EasyToYou_Method": "ic10php56v2",
+  "EasyToYou_Cookies": [
+    {
+      "domain": ".easytoyou.eu",
+      "hostOnly": false,
+      "httpOnly": true,
+      "name": "__cfduid",
+      "path": "/",
+      "sameSite": "lax",
+      "secure": true,
+      "session": false,
+      "storeId": "0",
+      "value": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "id": 1
+    },
+    {
+      "domain": "easytoyou.eu",
+      "hostOnly": true,
+      "httpOnly": false,
+      "name": "PHPSESSID",
+      "path": "/",
+      "sameSite": "unspecified",
+      "secure": false,
+      "session": true,
+      "storeId": "0",
+      "value": "xxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "id": 2
+    }
+  ]
+}

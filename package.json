@@ -1,0 +1,17 @@
+{
+  "name": "easytoyou_api",
+  "version": "1.1.0",
+  "description": "Simple EasyToYou.eu API using Puppeteer (Headless Chrome Node.js API) for decrypting directory from your computer.",
+  "main": "app.js",
+  "scripts": {
+    "decrypt": "node app.js"
+  },
+  "author": "Axel Kaotic",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "node-color-log": "^5.1.0",
+    "puppeteer": "^5.3.0"
+  }
+}
