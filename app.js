@@ -115,7 +115,7 @@ async function downloadFile(directoryPath, urlPath){
 const filesEncrypted = getFilesEncrypted(DEFAULT_DIRECTORY_PATH, DEFAULT_SEARCH_EXTENSION, DEFAULT_SEARCH_CONTENT, false);
 
 async function decryptAndDownloadFile(fileId = 0){
-    if(fileId > filesEncrypted.length){
+    if(fileId > filesEncrypted.length || !filesEncrypted[fileId]){
         logger.color('green').bold().log(`Job complete : ${filesEncrypted.length} files decrypted with success!`)
         return;
     }
